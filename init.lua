@@ -20,3 +20,5 @@ vim.schedule(function()
     require "vim.remaps"
     require "vim.settings"
   end)
+
+require("configs.lsp")
