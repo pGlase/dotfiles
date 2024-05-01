@@ -15,5 +15,3 @@ vim.opt.smartindent = true
 vim.opt.swapfile = false
 
 vim.opt.updatetime = 50
-
-vim.cmd.colorscheme("nightfox")
