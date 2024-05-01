@@ -1,0 +1,3 @@
+return {
+	"Badacadabra/vim-archery"
+}

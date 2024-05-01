@@ -16,5 +16,13 @@ vim.opt.swapfile = false
 
 vim.opt.updatetime = 50
 
+vim.cmd.colorscheme("archery")
+
+vim.opt.showtabline = 2
+vim.opt.laststatus = 2
+
+vim.g.airline_theme = "archery"
+vim.g.lightline = "archery"
+
 -- i do not understand why this must be set even before lazy.setup
 vim.g.wiki_root = '~/wiki'
