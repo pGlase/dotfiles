@@ -15,3 +15,6 @@ vim.opt.smartindent = true
 vim.opt.swapfile = false
 
 vim.opt.updatetime = 50
+
+-- i do not understand why this must be set even before lazy.setup
+vim.g.wiki_root = '~/wiki'
