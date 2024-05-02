@@ -22,6 +22,7 @@ lspconfig.clangd.setup({
     -- offer more completion options to cmp_nvim
     "--completion-style=detailed",
     "--suggest-missing-includes",
+    "--function-arg-placeholders",
     "--clang-tidy",
     },
 })
